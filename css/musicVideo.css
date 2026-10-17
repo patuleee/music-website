@@ -1,0 +1,86 @@
+#clips2, #clips3{
+    display: none;
+}
+
+.clips {
+    display:flex;
+    justify-content: center;
+
+
+    z-index: 200;
+}
+
+
+
+.clip {
+    display: inline-block;
+    box-sizing: border-box;
+    border: 10px double black;
+    background-color: rgba(240, 248, 255, 0.521);
+
+}
+.clip:not(:last-child) {
+    margin-right: 15px;
+}
+.clipImg {
+    display: block;
+    width:350px;height:auto;
+}
+
+
+.switches {
+    display: flex;
+    justify-content: center;
+    
+    
+    
+}
+.flippingVideo {
+    /* display: inline-block; */
+    margin-top:12px ;
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 25px;
+    cursor: pointer;
+    color:black;
+    background-color: rgba(240, 248, 255, 0.521);
+    height: 30px;
+    line-height: 30px;
+    width: 30px;
+    text-align: center;
+    border-radius: 70% 30% 30% 70%/60% 40% 60% 40%;
+
+
+}
+
+
+.flippingVideo:hover {
+    transition: 0.3s;
+    color:rgb(95, 95, 255);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+    transform: scale(1.5);
+    font-weight: bold;
+}
+
+
+
+.flippingVideo:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nameOfClip {
+    width:350px;  
+    
+}
+.AnameOfClip{
+    display: block;
+    font-size: 25px;
+    font-family: 'Grenze Gotisch', serif;
+    margin: 5px auto 5px 10px;
+    color:black;
+
+}
+
+.AnameOfClip:hover {
+    color:rgb(95, 95, 255);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+}

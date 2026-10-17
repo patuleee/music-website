@@ -1,0 +1,66 @@
+.song {
+    background-color: rgba(240, 248, 255, 0.5);
+    width:880px;
+    margin-left: 13%;
+    /* display: flex;
+    justify-content: center; */
+    
+}
+
+.song:not(:last-child){
+    margin-bottom: 10px;
+}
+.audio {
+    display:none;
+}
+.seekbar {
+    display: none;
+    width:745px;
+}
+.nameOfSong, .timeOfSong, .playPause{
+    font-size: 25px;
+    font-family: 'Grenze Gotisch', serif;
+}
+.nameOfSong {
+    display: inline-block;
+    
+
+    width:750px;
+    /* margin-left:20px; */
+    cursor: pointer;
+    
+}
+.nameOfSong:hover {
+    color:rgb(95, 95, 255);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+    transition: 0.3s;
+    /* transform: scale(1.5); */
+}
+.timeOfSong {
+    display: inline-block;
+
+}
+.playPause {
+    background-color: transparent;
+    border: none;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.playPause:hover {
+    color:rgb(95, 95, 255);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+    transition: 0.3s;
+    
+}
+
+.seekbar::-webkit-slider-thumb {
+    appearance: none;
+    width:10px;height:15px;
+    background:rgb(95, 95, 255);
+    box-shadow: 0 0 20px 5px rgb(95, 95, 255);
+}
+.seekbar{
+    appearance: none;
+    background: black;
+    height: 5px;
+}

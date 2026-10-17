@@ -1,0 +1,88 @@
+body{
+    /* height: 3000px; */
+
+    z-index: 100;
+    background-image: url('https://i.pinimg.com/474x/b3/b9/e1/b3b9e106deb42bf6b45e9449a65ac8c7.jpg');
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    
+    font-family: 'Grenze Gotisch', serif;
+
+}
+
+html { scroll-behavior: smooth; }
+
+a {
+    text-decoration: none;
+}
+#web {
+    position: fixed;
+    left:0;top:0;
+    width: 100%; height: 100%;
+    background-image: url('/img/паутина1.png');
+    opacity: 0.5;
+    z-index: 600;
+    background-size: cover;
+    pointer-events: none;
+}
+.clearfix {
+    display: block;
+    clear: both;
+}
+
+
+
+footer .wrapper a{
+    display: inline-block;
+    color:rgba(240, 248, 255, 0.344);
+    text-shadow: 0 0 29px aliceblue;
+    font-size: 20px;
+
+}
+footer .wrapper a:not(:last-child){
+    margin-right: 2%;
+}
+footer .wrapper {
+    text-align: center;
+    margin-top: 130px;
+    /* margin-bottom: 30px; */
+   
+    /* border: 1px solid red; */
+}
+footer .wrapper a:hover {
+    transition: 0.3s;
+    color:rgba(95, 95, 255, 0.785);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+}
+
+
+
+header h1 span{
+    font-size:1.3em;
+    /* color:rgba(95, 95, 255, 0.785); */
+    color:rgba(240, 248, 255, 0.474);
+    text-shadow: 0 0 10px rgb(73, 129, 118);
+    
+}
+header h1 p{
+    display: inline-block;
+    width:15px;
+}
+header h1{
+    position: absolute;
+    top:0px; left:0;right:0;
+    padding: 30px;
+    
+    /* border: 1px solid red; */
+    /* background-color: rgba(240, 248, 255, 0.414); */
+    background-color: rgba(0, 0, 0, 0.366);
+    /* background-color: rgba(12, 22, 35, 0.504); */
+    
+}
+header h1 span.emoji{
+    font-size: 0.9em;
+}
+main {
+    margin-top: 250px;
+}
+

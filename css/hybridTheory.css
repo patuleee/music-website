@@ -1,0 +1,200 @@
+body {
+    background-image:url('https://i.pinimg.com/736x/f7/74/d0/f774d0af02f734d4c0200e00de9ebadb.jpg');
+    /* background-image: url('./img/linkinPark.jpg'); */
+    /* background-size:contain; */
+    font-family: "Trade Winds", system-ui;
+    color:#2b030c
+    
+}
+#web {
+    position: fixed;
+    left:0;top:0;
+    width: 100%; height: 100%;
+    background-image: url('/img/паутина1.png');
+    opacity: 0.5;
+    z-index: 600;
+    background-size: cover;
+    pointer-events: none;
+}
+h1 {
+    font-size: 35px;
+    color:#f2ebd9;
+    text-shadow:0 0 10px #f2ebd9;
+    text-align: center;
+}
+
+
+
+.audio {
+    display: none;
+}
+.song {
+    background-color: rgba(248, 255, 240, 0.5);
+    width:550px; height:35px;
+    
+    font-size: 16px;
+}
+.song:not(:last-child){
+    margin-bottom: 5px;
+}
+
+.nameOfSong {
+    display: inline-block;
+    cursor: pointer;
+    width:450px;
+    
+}
+.nameOfSong:hover {
+    color:#f2ebd9;
+    text-shadow:0 0 10px #f2ebd9;
+    /* color:rgb(52, 241, 241);
+    text-shadow: 0 0 10px rgb(95, 95, 255); */
+    transition: 0.3s;
+    /* transform: scale(1.5); */
+}
+.timeOfSong {
+    display: inline-block;
+
+}
+
+
+.seekbar {
+    display: none;
+    width:450px;
+}
+
+.playPause {
+    color:#2b030c;
+
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.playPause:hover {
+    color:#f2ebd9;
+    text-shadow:0 0 10px #f2ebd9;
+    transition: 0.3s;
+    
+}
+
+.seekbar::-webkit-slider-thumb {
+    appearance: none;
+    width:10px;height:15px;
+    background:#f2ebd9;
+    box-shadow: 0 0 20px 5px #f2ebd9;
+}
+.seekbar{
+    appearance: none;
+    background: black;
+    height: 5px;
+}
+
+
+
+.songsFloat {
+    width:50%;
+    float:left;
+    margin-left: 10%;
+    margin-top: 80px;
+    
+}
+.songsWrapper{
+    display: inline-block;
+    border:10px double #2b030c;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+
+
+
+.albumCover {
+    background-color: #2b030c80;
+    padding: 10px;
+    width:30%;
+    float:right;
+    margin-right: 10%;
+    margin-top: 50px;
+    font-size: 15px;
+    color:#f2ebd9;
+    text-shadow:0 0 10px #f2ebd9;
+
+}
+.albumCover img {
+    /* display: block; */
+    float:left;
+    margin-right: 15px;
+    width:325px;height:325px;
+}
+
+
+
+
+@media (width<1200px){
+
+    .albumCover{
+        
+        float: none;
+        width:350px;
+        margin:0 auto;
+        padding: 15px;
+    
+    }
+   
+    .songsFloat{
+        float: none;
+        margin:40px auto;
+        display: flex;
+        justify-content: center;
+    }
+
+}
+@media(width<1000px){
+    .song{
+        width:350px;height: auto;
+    }
+    .nameOfSong{
+        width:250px;
+    }
+    
+    .seekbar {
+        width:240px;
+    }
+    
+}
+@media(width<500px){
+    .albumCover{
+        width:250px;
+    }
+    .albumCover img{
+        width:225px; height: 225px;
+    }
+}
+@media(width<400px){
+    .song{
+        width:250px;height: auto;
+        font-size: 15px;
+    }
+    .nameOfSong{
+        width:150px;
+    }
+    .seekbar {
+        width:145px;
+    }
+}
+
+.arrow {
+    display: inline-block;
+    margin:0 20px;
+}
+.arrow a{
+    text-decoration: none;
+    color:#f2ebd9;
+    font-size:30px;
+    text-shadow:0 0 10px #f2ebd9;
+}
+.arrow:hover{
+    transition: 0.3s;
+    transform: scale(1.5);
+}

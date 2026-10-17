@@ -1,0 +1,83 @@
+#navWrapper {
+    /* border: 1px solid red; */
+
+
+    position: fixed;
+    top:15%;
+    left:1%;
+    z-index: 500;
+    
+}
+.navText {
+
+    transform: rotate(-90deg);
+    text-align: center;
+    /* border: 1px solid pink; */
+
+    
+
+}
+/* .navTextRotate , .navText:not(:first-child) {
+    margin-top: 35px;
+} */
+
+
+/*ИЗНАЧАЛЬНОЕ ПОЛОЖЕНИЕ НАДПИСЕЦ КАЖДАЯ ОТДЕЛЬНО ПО АЙДИ */
+
+#navTop{
+    margin-top: 70px;
+    
+}
+#navSection {
+    margin-top: 100px;
+}
+#navClips {
+    margin-top: 120px;
+    white-space: nowrap;
+}
+
+
+.AnavText {
+    color:rgba(240, 248, 255, 0.486);
+    font-family: 'Grenze Gotisch', serif;
+    font-size: 25px;
+}
+.AnavText:hover {
+    color:rgb(95, 95, 255);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+    
+}
+
+#sideMarginRight , #sideMarginLeft {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    top:0;bottom: 0;
+    z-index: 300;
+    width: 8%;
+}
+#sideMarginRight {
+    right:0px;
+}
+#sideMarginLeft {
+    left:0px;
+}
+
+/* #eye {
+    position: fixed;
+    display: none;
+    
+    cursor: pointer;
+    top:10px; left:15px;
+    z-index: 600;
+    font-size: 25px;
+    color:rgba(240, 248, 255, 0.719);
+}
+#eye:hover {
+    
+    color:rgb(95, 95, 255);
+    text-shadow: 0 0 10px rgb(95, 95, 255);
+    transition: 0.3s;
+    transform: scale(1.5);
+
+} */
+

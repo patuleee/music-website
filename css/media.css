@@ -1,0 +1,188 @@
+@media(height<600px){
+    #navTop , #navSection, #navClips{
+        transition: 0.3s;
+    }
+    
+    #navTop{
+        margin-top: 35px;
+    }
+    #navSection {
+        margin-top: 60px;
+    }
+    #navClips {
+        margin-top: 110px;
+    }
+}
+@media(height<400px){
+    .navText {
+        transition: 0.3s;
+        transform: rotate(-45deg);
+        text-align: left;
+    }
+    .AnavText {
+        font-size: 15px;
+        transition: 0.3s;
+    }
+    #navTop , #navSection, #navClips{
+        margin-top: 5px;
+        transition: 0.3s;
+    }
+    
+   
+}
+@media(width<1300px){
+    
+    /* #sideMarginRight {
+        display: none;
+    } */
+
+    #navWrapper {
+        width:35px;
+     
+    }
+    .heading {
+        font-size: 35px;
+    }
+
+  
+     
+}
+/* @media(width>1300px){
+    #sideMarginRight {
+        display: block;
+    }
+} */
+
+
+@media(width<1200px) {
+    .clips {
+        flex-wrap: wrap;
+    }
+    
+    .AnameOfClip {
+
+        font-size:18px;
+    }
+    .clip {
+
+        width:250px;height:auto;
+    }
+
+
+
+
+    .song{
+        margin-left: 15%;
+        width:620px;
+    }
+    .nameOfSong, .timeOfSong, .playPause{
+        font-size: 20px;
+    }
+    .nameOfSong{
+        width:500px;
+    }
+    .seekbar {
+        width:500px;
+    }
+    
+
+
+    #alboms #imgSlider {
+        width:520px;
+ 
+    }
+    #alboms .imgSliderAlbom img{
+        width:200px;height:200px;
+    }
+    #alboms .imgSliderAlbom:not(:last-child){
+        margin-right:20px;
+    }
+    #alboms #imgSliderWrapper {
+      width:600px;
+    }
+
+}
+@media(width<750px) {
+    .song{
+        /* margin-left: 70px; */
+        width:520px;
+    }
+    .nameOfSong{
+        width:400px;
+    }
+    .seekbar {
+        width:400px;
+    }
+
+
+    #navWrapper {
+        width:20px;
+     
+    }
+
+    #sideMarginRight {
+        display: none;
+    } 
+    .clip:not(:last-child) {
+        margin-right: 0px;
+    }
+
+
+    
+
+    #alboms #imgSlider {
+        width:300px;
+ 
+    }
+   
+    #alboms #imgSliderWrapper {
+      width:400px;
+    }
+    footer .wrapper a{
+        font-size: 15px;
+    }
+
+    header .heading span {
+        font-size: 30px;
+    }
+    main {
+        margin-top: 170px;
+    }
+
+}
+@media(width<550px) {
+    .timeOfSong{
+        display:none;
+    }
+    .song{
+        display: flex;
+        align-items: center;
+        margin-left: 10%;
+        width:300px;
+    }
+    .nameOfSong{
+        width:200px;
+    }
+    .seekbar {
+        width:200px;
+    }
+
+
+
+
+    #alboms #imgSliderWrapper {
+      width:300px;
+    }
+
+
+}
+@media(width<350px){
+    #navWrapper {
+        width:10px;
+     
+    }
+    .AnavText{
+        font-size: 15px;
+    }
+}
+
